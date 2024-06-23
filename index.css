@@ -228,7 +228,96 @@ main {
     justify-content: space-between;
     align-content: space-between;
 }
-.project2mainbox{
+.other-container {
+    width: 90%;
+    max-width: 1200px;
+}
+
+.other-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    grid-column: 1 / span 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+.other-header hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+} 
+
+.other-header h1 {
+    margin: 0 20px;
+    font-size: 2em;
+}
+
+
+.otherprojects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.projectitm {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    overflow: hidden;
+    
+}
+
+.project-img {
+    background-color: #cccccc;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.project-des {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-des h1 {
+    margin-top: 0;
+}
+
+.project-des p {
+    margin: 10px 0;
+}
+
+.project-des hr {
+    margin: 10px 0;
+}
+
+.project-des .icon {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.project-des .ico {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.project-des .ico:hover {
+    color: #007bff;
+}
+.otherprojects{
+    margin-left: 250px;
+}
+/* .project2mainbox{
     
     display: grid;
     grid-template-columns: auto auto;
@@ -275,7 +364,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
    margin-left: 20rem;
   
-}
+} */
 .contact-container {
     width: 100%;
     height:100vh;
